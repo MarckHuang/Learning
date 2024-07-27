@@ -9,8 +9,9 @@ class Solution:
             return True
 
         return False
-
-    def getNext(self, nxt, s):
+    
+    #create prefix table
+    def getNext(self, nxt, s):              
         j=0
         nxt[0] = 0
         for i in range(1, len(s)):
