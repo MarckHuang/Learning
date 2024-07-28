@@ -21,3 +21,8 @@ Constraints:<br>
 1 <= s.length <= 105<br>
 s[i] is a printable ascii character.<br>
 
+=======================================================================================<br>
+## Evalute
+Assume n be the total number of operations performed.<br>
+- Time Complexity: O(n)
+- Space Complexity: O(1)
