@@ -33,6 +33,6 @@ class Solution:
         next = head.next.next
 
         cur.next = prev
-        prev.next = SyntaxWarning(next)
+        prev.next = self.swapPairs(next)
 
         return cur
