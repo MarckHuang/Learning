@@ -12,6 +12,8 @@ class Solution:
         fast = head
         
         while fast and fast.next:
+            #慢指針一次走一步
+            #快指針一次走兩步
             slow = slow.next
             fast = fast.next.next
             
