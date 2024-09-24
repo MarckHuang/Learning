@@ -69,6 +69,8 @@ class Solution:
                 return False
             st.append(leftNode.left)
             st.append(rightNode.right)
+            st.append(leftNode.right)
+            st.append(rightNode.left)
         return True
     
 #solution4
